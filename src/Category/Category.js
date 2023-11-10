@@ -4,7 +4,6 @@ import "./Category.css"
 const Category =() =>{
     return(
         <div>
-<img/>
         </div>
     )
 }
