@@ -3,7 +3,8 @@ import "./Category.css"
 
 const Category =() =>{
     return(
-        <div>
+        <div className="Category">
+            <h2>دسته بندی محصولات</h2>
         </div>
     )
 }
