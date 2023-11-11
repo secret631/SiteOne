@@ -1,6 +1,13 @@
-import React from "react";
+import React , {useState} from "react";
 import "./Toolbar1.css"
-const Toolbar1 = () => {
+const Toolbar1 = (props) => {
+    const [keyword, setkeyword] = useState('')
+
+    const SearchSubmit = (e) => {
+        setkeyword(e.target.value)
+      }
+    
+
     return (
         <div>
             <div className="Toolbar1">
@@ -12,9 +19,13 @@ const Toolbar1 = () => {
                 </div>
 
             
-                <div className="search">
-                    <input />
+                <div className="search" >
+                    <input onChange={SearchSubmit} />
+                    <img src="./Assets/search.png" onClick={() => props.submitHandler(keyword)}/>
+                    {/* <button onClick={() => props.submitHandler(keyword)}>Search</button> */}
                 </div>
+                
+                
                 <div className="logo">
                     <img src="./Assets/logo.png" />
                 </div>

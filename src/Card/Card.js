@@ -1,9 +1,9 @@
 import React from "react";
 
-const Card =() => {
-    return(
+const Card = (props) => {
+    return (
         <div>
-
+            <img src={props.OBG.urls.regular} />
         </div>
     )
 }

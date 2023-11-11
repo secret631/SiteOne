@@ -23,6 +23,9 @@
  
 
 }
+/* .search{
+    display: flex;
+} */
 
 .search input{
     margin-top: 30px;
@@ -37,11 +40,25 @@
     padding: 3px 10px 3px 10px;
    
 }
+
+
+.search img{
+    margin-top: 37px;
+    height: 23px;
+    position: fixed;
+    right: 16%;
+}
+.search img:hover{
+    height: 20px;
+
+}
 .login button{
     margin-left: 60px;
     margin-top:25px;
     padding: 5px;
 }
+
+
 .login button:hover{
     cursor: pointer;
 

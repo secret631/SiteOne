@@ -3,9 +3,15 @@ import "./Toolbar2.css"
 
 const Toolbar2 = () => {
     return (
-            <div className="Toolbar2">
-<ul>
-<li >
+        <div className="Toolbar2">
+            <ul>
+                <li >
+                    <a href="#">تخفیف‌ها و پیشنهادها </a>
+                </li>
+                <li >
+                    <a href="#">پرفروش‌ترین‌ها</a>
+                </li>
+                <li >
                     <a href="#">پوشاک زنانه </a>
                 </li>
                 <li >
@@ -18,11 +24,12 @@ const Toolbar2 = () => {
                     <a href="#">پوشاک اسپرت </a>
                 </li>
 
-</ul>
-               
-               
 
-            </div>
+            </ul>
+
+
+
+        </div>
     )
 }
 export default Toolbar2

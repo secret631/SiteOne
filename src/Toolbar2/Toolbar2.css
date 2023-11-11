@@ -12,7 +12,7 @@
 .Toolbar2 ul {
     display: flex;
     position: fixed;
-    right: 0%;
+    right:10%;
 }
 
 .Toolbar2 li {

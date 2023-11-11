@@ -1,0 +1,29 @@
+.ProductList {
+    padding: 50px;
+    column-count: 3;
+    column-gap: 7px;
+    column-width: 150px;
+    margin: auto;
+    width: 100%;
+}
+
+
+.ProductListText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ProductList img{
+    margin: 5px auto 5px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
