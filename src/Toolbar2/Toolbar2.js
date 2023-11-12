@@ -1,9 +1,12 @@
 import React from "react";
 import "./Toolbar2.css"
 
-const Toolbar2 = () => {
+const Toolbar2 = (props) => {
     return (
+       
         <div className="Toolbar2">
+
+
             <ul>
                 <li >
                     <a href="#">تخفیف‌ها و پیشنهادها </a>
